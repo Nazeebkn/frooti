@@ -1,0 +1,290 @@
+.header{
+    background-color: #0a0b27;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.header li{
+    margin-right: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+
+}
+.home-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.home-nav:hover{
+    color: red;
+}
+.company-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.company-nav:hover{
+    color: red;
+}
+.brand-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brand-nav:hover{
+    color: red;
+}
+.business-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.business-nav:hover{
+    color: red;
+}
+.newroom-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.newroom-nav:hover{
+    color: red;
+}
+.sus-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sus-nav:hover{
+    color: red;
+}
+.career-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.career-nav:hover{
+    color: red;
+}
+.contact-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-nav:hover{
+    color: red;
+}
+
+body{
+    margin: 0;
+}
+.image-1{
+    padding-top: 25px;
+    padding-left: 10px;
+    width: 119px;
+    height: 25px;
+}
+.image-2{
+    width: 100%;
+    
+}
+.left-section{
+    width: 50%;
+    height: 1215px;
+    background: rgb(240, 145, 48);
+    margin-top: -5px;
+    float: left;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    position: relative;
+}
+.right-section{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 1215px;
+    margin-top: -5px;
+    /* float: left; */
+   
+  
+}
+.image-3{
+    width: 100%;
+    height: auto; 
+    }
+.image-4{
+    width: 32px;
+    
+}
+.image-5{
+    width: 32px;
+    padding-left: 127px; 
+}
+.image-6{
+    width: 32px;
+}
+.image-7{
+    width: 32px;
+}
+.image-8{
+    width: auto;
+    size: 35px;
+    height: 550px;
+    padding-left: -41px;
+    padding-top: 80px
+}
+
+.header-3{
+   flex-direction: row;
+   display: flex;
+    height: auto;
+    
+
+}
+.header-5{
+    background-color:white;
+    height: 315px;
+    display: flex;
+}
+    
+.header-6{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    padding-left: 9px;
+    padding-top: 71px;
+    position: absolute;
+   }
+
+.para-1{ 
+    color: black; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    padding-left: 65px; 
+    padding-top: 32px; 
+}
+    
+
+.para-2{
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 29px;
+    line-height: 1.2;
+    color: #0a0b27;
+    text-align: left; 
+    padding-bottom: 10px;
+    padding-left: 84px;
+    padding-top: 42px;  
+    
+   
+}
+.para-3{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 202px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 31px;
+
+}
+.para-4{
+    color: black;
+    padding-left: 202px;
+    padding-top: 41px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.para-5{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 100px;
+padding-top: 42px;
+font-size: 14px;
+}
+.para-5:hover{
+    color: red;
+    text-decoration: underline;
+}
+.our-policy{
+    color: black;
+    padding-left: 99px;
+    padding-top: 39px;
+}
+.our-policy:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.para-6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 100px;
+    font-size: 14px;
+}
+.export-link{
+    color: black;
+}
+.export-link:hover{
+    color: red;
+    text-decoration: underline; 
+}
+.performs-link{
+    color: black;
+}
+.performs-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.consumercell-link{
+    color: black;
+}
+.consumercell-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.corpcom-link{
+    color: black;
+}
+.corpcom-link:hover{
+    color: red;
+    text-decoration: underline; 
+}
+
+#insta-icon{
+    width: 28px;
+    font-size: 24px;
+    
+}
+#linkedin-icon{
+    width: 28px;
+    font-size: 24px;
+    /* color: white; */
+}
+#twitter-icon{
+    width: 28px;
+    font-size: 24px;
+
+}
+#facebook-icon{
+    width: 28px;
+    font-size: 24px;
+}
+
+.para-3 a{
+    text-decoration: none;
+}
